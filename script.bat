@@ -1,0 +1,20 @@
+@echo off
+php artisan make:controller UserController -r
+php artisan make:model Role -rcs
+php artisan make:model Permission -rcs
+php artisan make:model Ville -ms
+php artisan make:model Immeuble -mrc
+php artisan make:model Copropriete -mrc
+php artisan make:model Canal -ms
+php artisan make:model TypeReclamation -ms
+php artisan make:model StatutReclamation -ms
+php artisan make:model Reclamation -mrc
+php artisan make:model Resolution -mrc
+php artisan make:model TypeCharge -ms
+php artisan make:model StatutCharge -ms
+php artisan make:model Charge -mrc
+php artisan make:model EtatFacture -ms
+php artisan make:model Facture -mrc
+php artisan make:model ModePaiment -ms
+php artisan make:model Paiment -mrc
+php artisan make:model Reunion -mrc
